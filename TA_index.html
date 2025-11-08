@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Company Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 font-sans">
+
+<nav class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <h1 class="text-xl font-bold text-gray-800">TechCompany</h1>
+        <div class="space-x-6 hidden md:flex">
+            <a href="#hero" class="text-gray-600 hover:text-gray-900">Home</a>
+            <a href="#features" class="text-gray-600 hover:text-gray-900">Features</a>
+            <a href="#about" class="text-gray-600 hover:text-gray-900">About</a>
+            <a href="#contact" class="text-gray-600 hover:text-gray-900">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<section id="hero" class="bg-blue-600 text-white py-20 text-center">
+    <h2 class="text-5xl font-extrabold mb-4">Solusi Teknologi Modern</h2>
+    <p class="text-lg opacity-90 mb-6">Mewujudkan transformasi digital lebih cepat dan efisien</p>
+    <a href="#contact" class="bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100 transition">
+        Hubungi Kami
+    </a>
+</section>
+
+<section id="features" class="py-16">
+    <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-10">Features</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mb-4"></div>
+                <h3 class="text-xl font-semibold mb-2">AI Integration</h3>
+                <p class="text-gray-600 mb-4">Integrasi AI untuk analisis data cerdas.</p>
+                <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">Learn More</button>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                <div class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center mb-4"></div>
+                <h3 class="text-xl font-semibold mb-2">Cloud Based</h3>
+                <p class="text-gray-600 mb-4">Teknologi cloud untuk efisiensi dan skalabilitas.</p>
+                <button class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">Get Started</button>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                <div class="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center mb-4"></div>
+                <h3 class="text-xl font-semibold mb-2">Security</h3>
+                <p class="text-gray-600 mb-4">Keamanan sistem dengan standar industri.</p>
+                <button class="bg-purple-500 hover:bg-purple-600 text-white px-4 py-2 rounded">Explore</button>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="about" class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold mb-4">Tentang Perusahaan</h2>
+        <p class="text-gray-600">
+            Kami adalah perusahaan teknologi yang bergerak di bidang pengembangan software,
+            artificial intelligence dan sistem digital berbasis cloud untuk membantu bisnis
+            bertransformasi menuju era digital.
+        </p>
+    </div>
+</section>
+
+<section id="contact" class="py-16 bg-gray-100">
+    <div class="max-w-4xl mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-8">Contact Us</h2>
+        <form class="bg-white p-8 rounded-xl shadow-md space-y-4">
+            <input type="text" placeholder="Nama" class="w-full border p-3 rounded">
+            <input type="email" placeholder="Email" class="w-full border p-3 rounded">
+            <textarea rows="4" placeholder="Pesan" class="w-full border p-3 rounded"></textarea>
+            <button class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700">Kirim</button>
+        </form>
+    </div>
+</section>
+
+<footer class="bg-gray-800 py-6 text-center text-gray-300">
+    <p>© 2025 TechCompany. All rights reserved.</p>
+    <p class="mt-2">Facebook · Instagram · LinkedIn</p>
+</footer>
+
+</body>
+</html>
